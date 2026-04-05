@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>My First HTML5 Form</h1>
+    <link rel="stylesheet" href="form.css">
+    
+</head>
+<body>
+    <form action="destination.html">
+
+<fieldset id="field"> <legend> Your Personal information </legend>
+<P>
+<label for ="nom"> last name </label>
+<input type="text" name="nom" id="nom" placeholder="yousra">
+</P>
+<p>
+<label for="ddn">date of birth</label>
+<input type="date" name="ddn" id="ddn">
+</p>
+
+<fieldset>
+    
+    <legend>place of birth</legend> 
+
+<input type="radio" id="algeria" name="pob" value ="algeria">
+<label for ="algeria"> algeria </label><br>
+<input type="radio" id="rest" name="pob" value ="rest">
+<label for ="rest">rest</label><br>
+
+
+</fieldset>
+
+<fieldset> 
+    
+    <legend>did you take web dev course</legend> 
+<input type="radio" id="yes" name="cwebdev" value ="yes">
+<label for ="yes"> yes </label>
+<input type="radio" id="no" name="cwebdev" value ="no">
+<label for ="no">no</label>
+</fieldset>
+<p>
+<label for="a" > postel address  </label>
+<textarea type="text" name="a" id="a" >your address</textarea>
+</p>
+
+<p>
+<label for="a" > postel code </label>
+<input type="text" name="a" id="a" placeholder="83000">
+</p>
+
+<p>
+<label for="a" > email address </label>
+<input type="email" name="a" id="a" placeholder="your email">
+</p>
+
+<p>
+<label for="a" > postel page </label>
+<input type="text" name="a" id="a" placeholder="web page">
+</p>
+
+<p>
+<label for="a" > mobile phone </label>
+<input type="tel" name="a" id="a" placeholder="06012345">
+</p>
+
+<p>
+<label for="a" > semester :</label>
+<select id="s" name="s" multiple size="4"> 
+
+<option value="s1">s1</option>
+<option value="s2">s2</option>
+<option value="s3">s3</option>
+<option value="s4">s4</option>
+<option value="s5">s5</option>
+<option value="s6">s6</option>
+
+
+</select>
+</p>
+
+<label> html level</label>
+<input type="range" id="html" name="place" min="0" max="10" step="1">
+
+
+
+
+
+
+
+<fieldset class="fieldset"> <legend>skils</legend> 
+<input type="checkbox" id="html" name="place" value ="algeria">
+<label for ="a"> html </label>
+<input type="checkbox" id="rest" name="place" value ="algeria">
+<label for ="a">css</label>
+<input type="checkbox" id="rest" name="place" value ="algeria">
+<label for ="a">php</label>
+<input type="checkbox" id="rest" name="place" value ="algeria">
+<label for ="a">javascript</label>
+</fieldset>
+
+<p>
+<button type="submit">submit</button>
+<button type="reset">reset</button>
+</p>
+
+</fieldset>
+<footer>Form created as part of the Web Development course.</footer>
+
+    </form>
+</body>
+</html>
+
+

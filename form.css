@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-top: 2em;
+  text-align: center;
+  border-bottom: #213857  solid 10px;
+ 
+}
+
+fieldset {
+  background-color: #d9d4bd;
+}
+
+legend {
+  text-transform: uppercase;
+}
+
+footer {
+  margin-top: 2em;
+  border-top: #213857  solid 5px;
+  border-bottom: #213857 solid 5px;
+  text-align: center ;
+  font-size: x-small;
+  background-color: #e9f3f6;
+}
+
+form > fieldset> p > label {font-weight: bold  ;}
+
+.fieldset  {
+
+color: #466e92;
+background-color: #cac2a5;
+
+}
